@@ -52,7 +52,8 @@ Give inputs in the waveform table .
 Run the program.
 
 **PROGRAM**
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+```
+ Program for flipflops and verify its truth table in quartus using Verilog programming.
  Developed by: PULI NAGA NEERAJ
  Register Number: 212223240130
 
@@ -71,8 +72,6 @@ always @ (posedge (clock))
         
 else
  //Write logic for JK flipflop using if else statement for four conditions
-
-
 begin
                if (j == 0 && k == 0)
                     begin
@@ -92,9 +91,7 @@ begin
             end
 end  
 endmodule
-
-*/
-
+```
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![image](https://github.com/PuliNagaNeeraj/JKFLIPFLOP-USING-IF-ELSE/assets/138849173/d79d0574-9070-420f-808e-e4095c8b9eae)
